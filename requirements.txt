@@ -4,3 +4,8 @@ zarr
 numpy
 matplotlib
 jupyterlab-geojson
+
+sklearn
+pandas
+xarray
+pyproj

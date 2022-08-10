@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat",
+        "lon"
+    ],
+    "flag_meanings": "no_data saturated_or_defective dark_area_pixels cloud_shadows vegetation bare_soils water clouds_low_probability_or_unclassified clouds_medium_probability clouds_high_probability cirrus snow_or_ice",
+    "flag_values": "0,1,2,3,4,5,6,7,8,9,10,11",
+    "sample_type": "UINT8"
+}

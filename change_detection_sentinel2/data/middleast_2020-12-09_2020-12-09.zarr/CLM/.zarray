@@ -1,0 +1,21 @@
+{
+    "chunks": [
+        1,
+        556,
+        556
+    ],
+    "compressor": {
+        "id": "zlib",
+        "level": 8
+    },
+    "dtype": "<f4",
+    "fill_value": "NaN",
+    "filters": null,
+    "order": "C",
+    "shape": [
+        1,
+        556,
+        556
+    ],
+    "zarr_format": 2
+}

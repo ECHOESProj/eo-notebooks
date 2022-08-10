@@ -1,0 +1,16 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat",
+        "lon"
+    ],
+    "bandwidth": 21.5,
+    "bandwidth_a": 21,
+    "bandwidth_b": 22,
+    "resolution": 20,
+    "sample_type": "FLOAT32",
+    "units": "reflectance",
+    "wavelength": 864.35,
+    "wavelength_a": 864.7,
+    "wavelength_b": 864
+}
