@@ -1,4 +1,3 @@
-json 
 xarray
 shapely
 zarr
