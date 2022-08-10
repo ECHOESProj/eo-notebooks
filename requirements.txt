@@ -3,3 +3,4 @@ shapely
 zarr
 numpy
 matplotlib
+jupyterlab-geojson
