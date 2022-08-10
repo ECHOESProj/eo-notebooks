@@ -1,0 +1,280 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "Conventions": "CF-1.7",
+            "coordinates": "time_bnds",
+            "date_created": "2022-08-08T16:41:43.777378",
+            "geospatial_lat_max": 52.57998,
+            "geospatial_lat_min": 52.56,
+            "geospatial_lon_max": -3.89994,
+            "geospatial_lon_min": -3.93,
+            "history": [
+                {
+                    "cube_config": {
+                        "band_fill_values": null,
+                        "band_names": [
+                            "B04",
+                            "B08",
+                            "CLM"
+                        ],
+                        "band_sample_types": null,
+                        "band_units": null,
+                        "bbox": [
+                            -3.93,
+                            52.56,
+                            -3.89994,
+                            52.57998
+                        ],
+                        "collection_id": null,
+                        "crs": "WGS84",
+                        "dataset_name": "S2L2A",
+                        "downsampling": "NEAREST",
+                        "four_d": false,
+                        "mosaicking_order": "mostRecent",
+                        "spatial_res": 0.00018,
+                        "tile_size": [
+                            167,
+                            111
+                        ],
+                        "time_period": "1 days 00:00:00",
+                        "time_range": [
+                            "2017-01-01T00:00:00+00:00",
+                            "2022-12-31T00:00:00+00:00"
+                        ],
+                        "time_tolerance": null,
+                        "upsampling": "NEAREST"
+                    },
+                    "program": "xcube_sh.chunkstore.SentinelHubChunkStore"
+                }
+            ],
+            "processing_level": "L2A",
+            "time_coverage_duration": "P2191DT0H0M0S",
+            "time_coverage_end": "2023-01-01T00:00:00+00:00",
+            "time_coverage_resolution": "P1DT0H0M0S",
+            "time_coverage_start": "2017-01-01T00:00:00+00:00",
+            "title": "S2L2A Data Cube Subset"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "B04/.zarray": {
+            "chunks": [
+                1,
+                111,
+                167
+            ],
+            "compressor": {
+                "id": "zlib",
+                "level": 8
+            },
+            "dtype": "<f4",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2191,
+                111,
+                167
+            ],
+            "zarr_format": 2
+        },
+        "B04/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "bandwidth": 31.0,
+            "bandwidth_a": 31,
+            "bandwidth_b": 31,
+            "resolution": 10,
+            "sample_type": "FLOAT32",
+            "units": "reflectance",
+            "wavelength": 664.75,
+            "wavelength_a": 664.6,
+            "wavelength_b": 664.9
+        },
+        "B08/.zarray": {
+            "chunks": [
+                1,
+                111,
+                167
+            ],
+            "compressor": {
+                "id": "zlib",
+                "level": 8
+            },
+            "dtype": "<f4",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2191,
+                111,
+                167
+            ],
+            "zarr_format": 2
+        },
+        "B08/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "bandwidth": 106.0,
+            "bandwidth_a": 106,
+            "bandwidth_b": 106,
+            "resolution": 10,
+            "sample_type": "FLOAT32",
+            "units": "reflectance",
+            "wavelength": 832.85,
+            "wavelength_a": 832.8,
+            "wavelength_b": 832.9
+        },
+        "CLM/.zarray": {
+            "chunks": [
+                1,
+                111,
+                167
+            ],
+            "compressor": {
+                "id": "zlib",
+                "level": 8
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2191,
+                111,
+                167
+            ],
+            "zarr_format": 2
+        },
+        "CLM/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ]
+        },
+        "lat/.zarray": {
+            "chunks": [
+                111
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 1,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                111
+            ],
+            "zarr_format": 2
+        },
+        "lat/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat"
+            ],
+            "long_name": "latitude",
+            "standard_name": "latitude",
+            "units": "decimal_degrees"
+        },
+        "lon/.zarray": {
+            "chunks": [
+                167
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 1,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                167
+            ],
+            "zarr_format": 2
+        },
+        "lon/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lon"
+            ],
+            "long_name": "longitude",
+            "standard_name": "longitude",
+            "units": "decimal_degrees"
+        },
+        "time/.zarray": {
+            "chunks": [
+                2191
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 1,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2191
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "bounds": "time_bnds",
+            "calendar": "proleptic_gregorian",
+            "standard_name": "time",
+            "units": "seconds since 1970-01-01T00:00:00+00:00"
+        },
+        "time_bnds/.zarray": {
+            "chunks": [
+                2191,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 1,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2191,
+                2
+            ],
+            "zarr_format": 2
+        },
+        "time_bnds/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "bnds"
+            ],
+            "calendar": "proleptic_gregorian",
+            "standard_name": "time",
+            "units": "seconds since 1970-01-01T00:00:00+00:00"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

@@ -1,0 +1,54 @@
+{
+    "Conventions": "CF-1.7",
+    "coordinates": "time_bnds",
+    "date_created": "2022-08-08T16:41:43.777378",
+    "geospatial_lat_max": 52.57998,
+    "geospatial_lat_min": 52.56,
+    "geospatial_lon_max": -3.89994,
+    "geospatial_lon_min": -3.93,
+    "history": [
+        {
+            "cube_config": {
+                "band_fill_values": null,
+                "band_names": [
+                    "B04",
+                    "B08",
+                    "CLM"
+                ],
+                "band_sample_types": null,
+                "band_units": null,
+                "bbox": [
+                    -3.93,
+                    52.56,
+                    -3.89994,
+                    52.57998
+                ],
+                "collection_id": null,
+                "crs": "WGS84",
+                "dataset_name": "S2L2A",
+                "downsampling": "NEAREST",
+                "four_d": false,
+                "mosaicking_order": "mostRecent",
+                "spatial_res": 0.00018,
+                "tile_size": [
+                    167,
+                    111
+                ],
+                "time_period": "1 days 00:00:00",
+                "time_range": [
+                    "2017-01-01T00:00:00+00:00",
+                    "2022-12-31T00:00:00+00:00"
+                ],
+                "time_tolerance": null,
+                "upsampling": "NEAREST"
+            },
+            "program": "xcube_sh.chunkstore.SentinelHubChunkStore"
+        }
+    ],
+    "processing_level": "L2A",
+    "time_coverage_duration": "P2191DT0H0M0S",
+    "time_coverage_end": "2023-01-01T00:00:00+00:00",
+    "time_coverage_resolution": "P1DT0H0M0S",
+    "time_coverage_start": "2017-01-01T00:00:00+00:00",
+    "title": "S2L2A Data Cube Subset"
+}
